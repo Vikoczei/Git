@@ -11,6 +11,16 @@ namespace Git
         static void Main(string[] args)
         {
             Console.WriteLine("Hello");
+
+
+            int a = int.Parse(Console.ReadLine());
+
+            for (int i = 0; i < a; i++)
+            {
+                Console.WriteLine(a-i);
+            }
+
+            Console.WriteLine("Szam");
         }
     }
 }
